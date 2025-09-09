@@ -1,0 +1,52 @@
+# Sensitive files
+*.log
+*.tmp
+*.key
+*.pem
+*.p12
+*.pfx
+
+# History files
+*_history
+.bash_history
+.zsh_history
+.python_history
+
+# SSH private keys
+.ssh/id_*
+.ssh/*_rsa*
+.ssh/*_ed25519*
+.ssh/known_hosts*
+
+# GPG keys
+.gnupg/
+
+# Cache and temporary files
+.cache/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+Thumbs.db
+.Trashes
+
+# IDE files
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# Personal tokens and credentials
+.boto
+.aws/credentials
+.gcp/

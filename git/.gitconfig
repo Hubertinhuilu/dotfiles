@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Hubertinhuilu
+	email = tuukka.alavaikko@sirway.fi
+[core]
+	autocrlf = input
+	eol = lf
+[http]
+	postBuffer = 524288000
+[pull]
+	rebase = false
